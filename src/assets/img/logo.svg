@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="152"
+   height="64"
+   viewBox="0 0 152 64"
+   fill="none"
+   version="1.1"
+   id="svg27"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlnssvg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs31" />
+  <rect
+     width="152"
+     height="64"
+     rx="4"
+     fill="#d73b3b"
+     id="rect2"
+     x="0"
+     y="0" />
+  <mask
+     id="mask0_8_388"
+     maskUnits="userSpaceOnUse"
+     x="0"
+     y="0"
+     width="152"
+     height="64">
+    <rect
+       width="152"
+       height="64"
+       rx="4"
+       fill="#d73b3b"
+       id="rect4"
+       x="0"
+       y="0" />
+  </mask>
+  <g
+     mask="url(#mask0_8_388)"
+     id="g25">
+    <rect
+       x="40"
+       y="69.240097"
+       width="182.522"
+       height="72.8274"
+       transform="rotate(-15,40,69.2401)"
+       fill="#c53333"
+       id="rect7" />
+    <rect
+       x="63.182201"
+       y="63.0285"
+       width="12"
+       height="11.9844"
+       transform="rotate(-15,63.1822,63.0285)"
+       fill="#ffffff"
+       id="rect9" />
+    <rect
+       x="86.364403"
+       y="56.816799"
+       width="12"
+       height="11.9844"
+       transform="rotate(-15,86.3644,56.8168)"
+       fill="#ffffff"
+       id="rect11" />
+    <rect
+       x="109.547"
+       y="50.605202"
+       width="12"
+       height="11.9844"
+       transform="rotate(-15,109.547,50.6052)"
+       fill="#ffffff"
+       id="rect13" />
+    <rect
+       x="132.729"
+       y="44.393501"
+       width="12"
+       height="11.9844"
+       transform="rotate(-15,132.729,44.3935)"
+       fill="#ffffff"
+       id="rect15" />
+    <rect
+       x="147.422"
+       y="52.863701"
+       width="12"
+       height="11.9844"
+       transform="rotate(-15,147.422,52.8637)"
+       fill="#ffffff"
+       id="rect17" />
+    <rect
+       x="124.24"
+       y="59.075298"
+       width="12"
+       height="11.9844"
+       transform="rotate(-15,124.24,59.0753)"
+       fill="#ffffff"
+       id="rect19" />
+    <rect
+       x="101.057"
+       y="65.287003"
+       width="12"
+       height="11.9844"
+       transform="rotate(-15,101.057,65.287)"
+       fill="#ffffff"
+       id="rect21" />
+    <text
+       xmlspace="preserve"
+       style="font-size:35.8752px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.22302"
+       x="73.850372"
+       y="40.975075"
+       id="text356"><tspan
+         id="tspan354"
+         x="73.850372"
+         y="40.975075"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.8752px;font-family:Constantia;-inkscape-font-specification:Constantia;stroke-width:1.22302">Filoni</tspan></text>
+  </g>
+</svg>
