@@ -1,6 +1,6 @@
-import filtros from "./filtros.json";
-import style from "./Filtros.module.scss";
-import classNames from "classnames";
+import filtros from './filtros.json';
+import style from './Filtros.module.scss';
+import classNames from 'classnames';
 
 type Iopcao = typeof filtros[0];
 
@@ -13,7 +13,7 @@ export default function Filtros({filtro , setFiltro}:Props){
     const selecionarFiltro = (opcao:Iopcao)=>{
         if(filtro === opcao.id)return setFiltro(null);
         return setFiltro(opcao.id);
-    }
+    };
     return(
         <div className={style.filtros}>
             {filtros.map((opcao)=>(
@@ -21,11 +21,11 @@ export default function Filtros({filtro , setFiltro}:Props){
                     [style.filtros__filtro]:true,
                     [style['filtros__filtro--ativo']]: filtro === opcao.id
                 })} 
-                    key={opcao.id} 
-                    onClick={()=>selecionarFiltro(opcao)}> 
+                key={opcao.id} 
+                onClick={()=>selecionarFiltro(opcao)}> 
                     {opcao.label}
                 </button>
             ))}
         </div>
-    )
+    );
 }

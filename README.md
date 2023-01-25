@@ -25,6 +25,9 @@ Gera a versão de desenvolvimento.
 - React-icons - 4.7.1
 - Typescript - 4.9.4
 - React - 18.2.0
+- React-router-dom - 6.7.0
+- eslint - 8.32.0
+
 
 ## Sobre mim
 

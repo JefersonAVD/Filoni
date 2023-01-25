@@ -1,8 +1,8 @@
-import { useEffect } from "react";
-import { useState } from "react";
-import Item from "./item";
-import cardapio from "./itens.json";
-import style from "./Itens.module.scss";
+import { useEffect,useState } from 'react';
+import Item from './item';
+import cardapio from 'data/cardapio.json';
+import style from './Itens.module.scss';
+import { Cardapio } from 'types/pratos';
 
 interface Props{
     busca:string,
@@ -14,7 +14,7 @@ export default function Itens({busca,filtro,ordenador}:Props){
     const [lista, setLista] = useState(cardapio);
 
     function testaBusca(title:string,description:string){
-        const regex = new RegExp(busca,"i");
+        const regex = new RegExp(busca,'i');
         return regex.test(title) || regex.test(description);
     }
 
@@ -23,16 +23,16 @@ export default function Itens({busca,filtro,ordenador}:Props){
         return true;
     }
 
-    function ordenar(lista:typeof cardapio){
+    function ordenar(lista: Cardapio){
         switch(ordenador){
-            case 'porcao':
-                return lista.sort((a,b)=>a.size>b.size ?1:-1);
-            case 'qtd_pessoas':
-                return lista.sort((a,b)=>a.serving>b.serving?1:-1);
-            case 'preco':
-                return lista.sort((a,b)=>a.price>b.price?1:-1);
-            default:
-                return lista;
+        case 'porcao':
+            return lista.sort((a,b)=>a.size>b.size ?1:-1);
+        case 'qtd_pessoas':
+            return lista.sort((a,b)=>a.serving>b.serving?1:-1);
+        case 'preco':
+            return lista.sort((a,b)=>a.price>b.price?1:-1);
+        default:
+            return lista;
         }   
     }
 
@@ -46,10 +46,10 @@ export default function Itens({busca,filtro,ordenador}:Props){
             {
                 lista.map((item)=>(
                     <Item key={item.id}
-                    {...item}
+                        {...item}
                     />
                 ))
             }
         </div>
-    )
+    );
 }
